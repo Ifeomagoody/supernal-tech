@@ -1308,13 +1308,13 @@ transition={{ duration: 2, ease: 'easeInOut' }}
       </div>
 
   </div>
-              <div className="md:w-[70rem] w-[4.15rem] my-[0.5rem] border border-[#919191] mx-auto"></div>
+              <div className="md:w-[68rem] w-[4.15rem] my-[0.5rem] border border-[#919191] mx-auto"></div>
    </motion.div>
 </section> 
  
  {/*seventh section*/}
-<section className="min-h-screen p-6 w-full flex  bg-black">
-  <div className="relative w-[400px] flex flex-wrap h-[400px] rounded-3xl overflow-hidden">
+{/*<section className="min-h-screen p-6 w-full flex  bg-black">
+   <div className="relative border border-green-500 w-[400px] flex flex-wrap h-[400px] rounded-3xl overflow-hidden">
             <motion.div
               className="absolute inset-0"
               initial={{ opacity: 0, scale: 0.9 }}
@@ -1325,12 +1325,44 @@ transition={{ duration: 2, ease: 'easeInOut' }}
                 ease: [0.25, 0.1, 0.25, 1], 
               }}
             >
-             <div className="">
 
+              <div className="flex justify-between border border-green-500 items-center">
+                <h1 className="text-[4rem]">Testimonials</h1>
+
+                  <button className="bg-[#C28D01] flex justify-center hover:bg-transparent border border-[#C28D01] hover:text-[#C28D01] px-[2rem] py-[1rem] rounded-full text-[1.3rem]  items-center gap-2 text-white">
+                View all
+                <Image
+                  src="/arrow-up-solid-full.svg"
+                  alt="navigation"
+                  width={15}
+                  height={15}
+                  className="rotate-45 transition-all duration-300"
+                />
+              </button>
+              </div>
+             <div className="w-[30rem] h-[30rem] rounded-xl border border-white">
+                 <h1></h1>
+             </div>
+              <div className="flex justify-between items-center">
+                <h1 className="text-[4rem]">Testimonials</h1>
+
+                  <button className="bg-[#C28D01] flex justify-center hover:bg-transparent border border-[#C28D01] hover:text-[#C28D01] px-[2rem] py-[1rem] rounded-full text-[1.3rem]  items-center gap-2 text-white">
+                View all
+                <Image
+                  src="/arrow-up-solid-full.svg"
+                  alt="navigation"
+                  width={15}
+                  height={15}
+                  className="rotate-45 transition-all duration-300"
+                />
+              </button>
+              </div>
+             <div className="w-[30rem] h-[30rem] rounded-xl border border-white">
+                 <h1></h1>
              </div>
             </motion.div>
 
-            
+{/*             
       <button
         onClick={nextText}
         className="absolute -right-12 bg-[#C28D01] border border-[#C28D01] hover:bg-white hover:text-[#C28D01] text-white flex items-center justify-center h-15 w-15 rounded-full"
@@ -1343,10 +1375,136 @@ transition={{ duration: 2, ease: 'easeInOut' }}
         className="absolute -left-12 bg-[#C28D01] border border-[#C28D01] hover:bg-white hover:text-[#C28D01] text-white flex items-center justify-center h-15 w-15 rounded-full"
       >
         <ArrowLeft className="h-8 w-8" />
-      </button>
-          </div>
-</section>
+      </button> *
+          </div> */}
 
+          {/* <div className="flex justify- items-cente">
+
+            <h1 className="text-[4rem] text-white">Testimonials</h1>
+
+
+                <button className="bg-[#C28D01] flex justify-center hover:bg-transparent border border-[#C28D01] hover:text-[#C28D01] px-[2rem] py-[1rem] rounded-full text-[1.3rem]  items-center gap-2 text-white">
+                View all
+                <Image
+                  src="/arrow-up-solid-full.svg"
+                  alt="navigation"
+                  width={15}
+                  height={15}
+                  className="rotate-45 transition-all duration-300"
+                />
+              </button>
+            
+          </div> *       
+  <div className="md:flex md:justify-between items-cente pt-10">
+        <h1 className="text-[3rem] font-semibold">Insights &<br/> Innovations</h1>
+      <div>
+       <button className="bg-[#C28D01] flex justify-center hover:bg-transparent border border-[#C28D01] hover:text-[#C28D01] px-[2rem] py-[1rem] rounded-full text-[1.3rem]  items-center gap-2 text-white">
+                View all
+                <Image
+                  src="/arrow-up-solid-full.svg"
+                  alt="navigation"
+                  width={15}
+                  height={15}
+                  className="rotate-45 transition-all duration-300"
+                />
+              </button>
+      </div>  
+  </div>
+</section>*/}
+                 
+ {/*seventh section*/}
+          <section className="bg-black min-h-screen p-10 w-full">
+      
+            
+                  <div className="flex justify-around items-center">
+                                                  <motion.div
+                      initial={{ opacity: 0, x: -100 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 1, ease: 'easeInOut' }}
+                      >  
+                    <h1 className="text-[4rem] text-white">Testimonials</h1>
+                  </motion.div>
+                    <div>
+
+                                                <motion.div
+                      initial={{ opacity: 0, x: 0 }}
+                      animate={{ opacity: 1, x: -100 }}
+                      transition={{ duration: 1, ease: 'easeInOut' }}
+                      >  
+                     <button className="bg-[#C28D01] flex justify-center hover:bg-transparent border border-[#C28D01] hover:text-[#C28D01] px-[2rem] py-[0.8rem] rounded-full text-[1.3rem]  items-center gap-2 text-white">
+                View all
+                <Image
+                  src="/arrow-up-solid-full.svg"
+                  alt="navigation"
+                  width={15}
+                  height={15}
+                  className="rotate-45 transition-all duration-300"
+                />
+              </button>
+              </motion.div>
+                    </div>
+                  </div>
+
+
+          <div className="flex justify-around">
+                  <div className="flex justify-center items-center  p-10">
+
+                                               <motion.div
+                      initial={{ opacity: 0, x: -100 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 1, ease: 'easeInOut' }}
+                      >  
+                    <div className="w-[35rem] h-[25rem] rounded-2xl p-10 border space-y-10 border-white">
+                           <h1 className="text-[1.5rem] font-semibold text-white">"Partnering with Tech Hub has been a<br/> game-changer for us. Their real-time<br/> data tracking and performance<br/> dashboards have provided us with<br/> unparalleled insights into our software<br/> performance. "</h1>
+                    
+                    <div className="flex space-x-5 mt-">
+                      <Image
+                          src="/images/testimonial-man.webp"
+                          alt="Testifier Man"
+                          width={50}
+                          height={50}
+                          className="w-15 h-15 rounded-full"
+                      />
+                     <div>
+                      <h2 className="font-semibold text-white">John D.</h2>
+                      <p className="text-[1rem] font-light text-white">CTO of TechInnovate</p>
+
+                     </div>
+                    </div>
+                    </div>
+                    </motion.div>
+                  </div>
+
+                  
+                  <div className="flex justify-center items-center p-10">
+                                                <motion.div
+                      initial={{ opacity: 0, x: 0 }}
+                      animate={{ opacity: 1, x: -100 }}
+                      transition={{ duration: 2, ease: 'easeInOut' }}
+                      >  
+                    <div className="w-[35rem] h-[25rem] rounded-2xl p-10 border space-y-10 border-white">
+                           <h1 className="text-[1.5rem] font-semibold text-white">"Partnering with Tech Hub has been a<br/> game-changer for us. Their real-time<br/> data tracking and performance<br/> dashboards have provided us with<br/> unparalleled insights into our software<br/> performance. "</h1>
+                    
+                    <div className="flex space-x-5 mt-">
+                      <Image
+                          src="/images/testimonial-woman.webp"
+                          alt="Testifier Man"
+                          width={50}
+                          height={50}
+                          className="w-15 h-15 rounded-full"
+                      />
+                     <div>
+                      <h2 className="font-semibold text-white">John D.</h2>
+                      <p className="text-[1rem] font-light text-white">CTO of TechInnovate</p>
+
+                     </div>
+                    </div>
+                    </div>
+                   </motion.div> 
+                  </div>
+
+          </div>
+          </section>
       </main>
     </>
   );
