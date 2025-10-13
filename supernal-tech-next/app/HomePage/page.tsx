@@ -100,7 +100,7 @@ export default function Page() {
     <>
       <nav className="relative">
         <div className="fixed z-10 bg-black p-4 right-0 left-0 flex sm:gap-3 justify-between items-center">
-          <div className="flex flex-row items-center gap-">
+          <div className="flex flex-row items-center">
             <Link href="#">
               <Image
                 src="/images/Ife_Logo.png"
@@ -772,7 +772,7 @@ export default function Page() {
         </div>
       </nav>
 
-      <main className="bg-black p- pt-34">
+      <main className="bg-black  pt-34">
         {/**Unlock section first one */}
         <section className="flex flex-wrap  justify-around items-center">
           <div className="md:flex md:flex-col md:items-start items-center md:text-left text-center px-4">
@@ -1416,7 +1416,7 @@ transition={{ duration: 2, ease: 'easeInOut' }}
           <section className="bg-black min-h-screen p-10 w-full">
       
             
-                  <div className="flex justify-around items-center">
+                  <div className="flex flex-wrap justify-around items-center">
                                                   <motion.div
                       initial={{ opacity: 0, x: -100 }}
                       animate={{ opacity: 1, x: 0 }}
@@ -1431,7 +1431,7 @@ transition={{ duration: 2, ease: 'easeInOut' }}
                       animate={{ opacity: 1, x: -100 }}
                       transition={{ duration: 1, ease: 'easeInOut' }}
                       >  
-                     <button className="bg-[#C28D01] flex justify-center hover:bg-transparent border border-[#C28D01] hover:text-[#C28D01] px-[2rem] py-[0.8rem] rounded-full text-[1.3rem]  items-center gap-2 text-white">
+                     <button className="bg-[#C28D01] flex  justify-center hover:bg-transparent border border-[#C28D01] hover:text-[#C28D01] px-[2rem] py-[0.8rem] rounded-full text-[1.3rem]  items-center gap-2 text-white">
                 View all
                 <Image
                   src="/arrow-up-solid-full.svg"
@@ -1446,7 +1446,7 @@ transition={{ duration: 2, ease: 'easeInOut' }}
                   </div>
 
 
-          <div className="flex justify-around">
+          <div className="flex flex-wrap justify-around">
                   <div className="flex justify-center items-center  p-10">
 
                                                <motion.div
@@ -1454,8 +1454,8 @@ transition={{ duration: 2, ease: 'easeInOut' }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ duration: 1, ease: 'easeInOut' }}
                       >  
-                    <div className="w-[35rem] h-[25rem] rounded-2xl p-10 border space-y-10 border-white">
-                           <h1 className="text-[1.5rem] font-semibold text-white">"Partnering with Tech Hub has been a<br/> game-changer for us. Their real-time<br/> data tracking and performance<br/> dashboards have provided us with<br/> unparalleled insights into our software<br/> performance. "</h1>
+                    <div className="md:w-[35rem] md:h-[25rem] w-[25rem] h-[18rem] rounded-2xl p-10 border space-y-10 border-white">
+                           <h1 className="md:text-[1.5rem] text-[1rem] font-semibold text-white text-center">"Partnering with Tech Hub has been a<br/> game-changer for us. Their real-time<br/> data tracking and performance<br/> dashboards have provided us with<br/> unparalleled insights into our software<br/> performance. "</h1>
                     
                     <div className="flex space-x-5 mt-">
                       <Image
@@ -1474,16 +1474,17 @@ transition={{ duration: 2, ease: 'easeInOut' }}
                     </div>
                     </motion.div>
                   </div>
+                
 
                   
                   <div className="flex justify-center items-center p-10">
                                                 <motion.div
-                      initial={{ opacity: 0, x: 0 }}
-                      animate={{ opacity: 1, x: -100 }}
+                      initial={{ opacity: 0, x: -100 }}
+                      animate={{ opacity: 1, x: 0 }}
                       transition={{ duration: 2, ease: 'easeInOut' }}
                       >  
-                    <div className="w-[35rem] h-[25rem] rounded-2xl p-10 border space-y-10 border-white">
-                           <h1 className="text-[1.5rem] font-semibold text-white">"Partnering with Tech Hub has been a<br/> game-changer for us. Their real-time<br/> data tracking and performance<br/> dashboards have provided us with<br/> unparalleled insights into our software<br/> performance. "</h1>
+                    <div className="md:w-[35rem] md:h-[25rem] w-[25rem] h-[18rem] rounded-2xl p-10 border space-y-10 border-white">
+                           <h1 className="md:text-[1.5rem] text-[1rem] font-semibold text-white text-center">"Partnering with Tech Hub has been a<br/> game-changer for us. Their real-time<br/> data tracking and performance<br/> dashboards have provided us with<br/> unparalleled insights into our software<br/> performance. "</h1>
                     
                     <div className="flex space-x-5 mt-">
                       <Image
@@ -1504,6 +1505,419 @@ transition={{ duration: 2, ease: 'easeInOut' }}
                   </div>
 
           </div>
+          </section>
+
+
+{/*eight section*/}
+           <section className="w-full min-h-screen bg-white flex items-center justify-center overflow-hidden">
+            <div className="flex flex-wrap gap-10 bg-white justify-center">
+             <div className="">
+              
+                   <motion.div
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                duration: 0.8,
+                delay: 0.5,
+                ease: [0.5, 0.71, 0.2, 1.01],
+              }}
+            >
+              
+                <h1 className=" md:text-[3rem] text-[2.5rem] font-semibold">Our Expert<br/> Team</h1>
+                <p className=" font-light md:text-[1.02rem] text-[1.2rem] ">Meet the talented and passionate individuals<br/> driving our innovation and success. Our expert<br/> team combines years of experience, deep industry<br/> knowledge, and a commitment to excellence to<br/> deliver cutting-edge solutions and insights.</p>
+               
+                <button className="text-white bg-black flex mt-10 justify-center  border border-[#C28D01] hover:bg-[#C28D01] hover:text-white px-[2rem] py-[0.8rem] rounded-full text-[1.3rem]  items-center gap-2">
+            Get to Know Us
+                <Image
+                  src="/arrow-up-solid-full.svg"
+                  alt="navigation"
+                  width={15}
+                  height={15}
+                  className="rotate-45 text-black transition-all duration-300"
+                />
+              </button>
+             
+</motion.div>
+             </div>
+
+
+           
+             <div>
+                  <motion.div
+initial={{ opacity: 0, y: 100}}
+animate={{ opacity: 1, y: 0}}
+transition={{ duration: 1, ease: 'easeInOut' }}
+>
+              <div className="relative">
+              <Image
+                src="/images/girl-laptop.webp"
+                alt="A girl with a laptop"
+                width={80}
+                height={50}
+                className=" w-45 h-45 z-10 object-cover rounded-2xl"
+              />
+               <div className="w-35 flex items-center h-15 shadow-md bg-white absolute md:top-32 left-5 rounded-2xl">
+               <span className="px-3  font-semibold text-[0.9rem] text-center">Ifechukwu Benedict</span>
+               </div>
+              </div>
+
+              <div className="relative">
+
+              <Image
+                src="/images/man-smiling.webp"
+                alt="A girl with a laptop"
+                width={80}
+                height={50}
+                className=" w-45 h-45 object-cover rounded-2xl mt-5"
+              />
+                  <div className="w-35 flex items-center h-15 shadow-md bg-white absolute md:top-30 left-5 rounded-2xl">
+               <span className="px-3  font-semibold text-[0.9rem] text-center">Ifechukwu Benedict</span>
+               </div>
+              </div>
+              </motion.div>
+             </div>
+
+
+             <div>
+                                <motion.div
+initial={{ opacity: 0, y: 100}}
+animate={{ opacity: 1, y: 0}}
+transition={{ duration: 2, ease: 'easeInOut' }}
+>
+              <div className="relative">
+              <Image
+                src="/images/668bc631552245e0b1f1f6ac_667d0d3673903a7f735aa1cc_Screenshot 2024-06-27 at 10.56.39-p-500.webp"
+                alt="A girl with a laptop"
+                width={80}
+                height={50}
+                className=" w-80 h-90 z-10 object-cover rounded-4xl"
+              />
+               <div className="w-40 flex items-center h-15 shadow-md bg-white absolute md:bottom-0 right-20 rounded-2xl">
+               <span className="px-3  font-semibold text-[0.9rem]">Ifechukwu Benedict</span>
+               </div>
+
+              </div> 
+              </motion.div>           
+             </div>
+
+
+               <div>
+                                               <motion.div
+initial={{ opacity: 0, y: 100}}
+animate={{ opacity: 1, y: 0}}
+transition={{ duration: 3, ease: 'easeInOut' }}
+>
+              <div className="relative">
+              <Image
+                src="/images/man_VR.webp"
+                alt="A girl with a laptop"
+                width={80}
+                height={50}
+                className=" w-45 h-45 z-10 object-cover rounded-2xl"
+              />
+               <div className="w-35 flex items-center h-15 shadow-md bg-white absolute md:top-32 left-5 rounded-2xl">
+               <span className="px-3  font-semibold text-[0.9rem] text-center">Ifechukwu Benedict</span>
+               </div>
+              </div>
+</motion.div>
+              <div className="relative">
+                                <motion.div
+initial={{ opacity: 0, y: 100}}
+animate={{ opacity: 1, y: 0}}
+transition={{ duration: 3, ease: 'easeInOut' }}
+>
+              <Image
+                src="/images/pink-girl.webp"
+                alt="A girl with a laptop"
+                width={80}
+                height={50}
+                className=" w-45 h-45 object-cover rounded-2xl mt-5"
+              />
+                  <div className="w-35 flex items-center h-15 shadow-md bg-white absolute md:top-30 left-5 rounded-2xl">
+               <span className="px-3  font-semibold text-[0.9rem] text-center">Ifechukwu Benedict</span>
+               </div>
+              </motion.div>
+              </div>
+
+             </div>
+             
+              
+            </div>
+          </section> 
+
+          
+
+{/*ninth section*/}
+          <section className="min-h-screen ">
+            <div className="flex  h-[90vh] rounded-4xl m-10 flex-wrap space-x-20  bg-[#C28D01] justify-center items-center">
+            
+            <div className="relative">
+
+                      <Image
+                     src="/images/three-people-laptop.webp"
+                     alt="Three"
+                     height={500}
+                     width={100}
+                     className="w-100 h-100 rounded-2xl relative object-cover"
+                     /> 
+
+                      <div className="absolute bottom-75 right-[-50]">
+                          
+             <motion.div
+initial={{ opacity: 0, y: 100}}
+animate={{ opacity: 1, y: 0}}
+transition={{ duration: 1, ease: 'easeInOut' }}
+>
+                          <Image
+                          src="/images/graph-pic.svg"
+                          alt=""
+                          width={100}
+                          height={100}
+                          className="w-65 h-50"
+                          />
+                          </motion.div>
+                      </div>
+                      <div className="absolute bottom-[-50] left-[-40]">
+
+                                       <motion.div
+initial={{ opacity: 0, y: 100}}
+animate={{ opacity: 1, y: 0}}
+transition={{ duration: 1, ease: 'easeInOut' }}
+>
+                          <Image
+                          src="/images/data-flow.svg"
+                          alt=""
+                          width={100}
+                          height={100}
+                          className="w-50 h-50"
+                          />
+                          </motion.div>
+                      </div>
+
+                     
+            </div>
+                                <div className="space-y-5">
+                                  
+                     <h1 className="md:text-[2.385rem] text-[2rem] font-semibold">Unlock the full potential of your<br/> business with our cutting-edge<br/> software solutions. Join our<br/> community today and gain<br/> instant.</h1>        
+                  
+                  <div className="flex gap-5 justify-between items-center">
+<div className="flex gap-5">
+  
+                    <Image 
+                    src="/images/phone-solid-full.svg"
+                    alt="Phone"
+                    height={10}
+                    width={30}
+                    />
+
+                    <div className="relative z-0">
+    <input type="text" id="floating_standard" className="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " />
+    <label htmlFor="floating_standard" className="absolute text-sm text-white dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto">Your Phone Number</label>
+</div>
+</div>
+<div>
+
+                    <button className="text-white bg-black flex mt-10 justify-center  border border-black hover:bg-[#C28D01] hover:text-white px-[2rem] py-[0.8rem] rounded-full text-[1.3rem]  items-center gap-2">
+                Send
+                <Image
+                  src="/arrow-up-solid-full.svg"
+                  alt="navigation"
+                  width={15}
+                  height={15}
+                  className="rotate-45 text-black transition-all duration-300"
+                />
+              </button>
+</div>
+                  </div>
+                
+                                </div>
+                 </div>
+          </section>
+
+{/*tenth section*/}
+          <section className="min-h-screen p-10">
+               <div className="flex flex-wrap justify-between">
+                <div className="flex items-center">
+
+                      <Link href="#">
+              <Image
+                src="/images/Ife_Logo.png"
+                alt="The Logo"
+                width={70}
+                height={60}
+              />
+            </Link>
+            <h1 className="text-white text-[3rem]">Let's Work With Us</h1>
+                </div>
+                  
+                    <button className="text-white bg-black flex mt-10 justify-center  border border-[#C28D01] hover:bg-[#C28D01] hover:text-white px-[2rem] py-[0.8rem] rounded-full text-[1.3rem]  items-center gap-2">
+                Book a Call
+                <Image
+                  src="/arrow-up-solid-full.svg"
+                  alt="navigation"
+                  width={15}
+                  height={15}
+                  className="rotate-45 text-black transition-all duration-300"
+                />
+              </button>
+              <div className="md:w-[88rem] w-[4.15rem] my-[2rem] border border-[#919191] mx-auto"></div>
+               </div>
+
+               <div className="flex flex-wrap p-10 justify-between">
+           
+                        <motion.div
+initial={{ opacity: 0, x: -100}}
+animate={{ opacity: 1, x: 0}}
+transition={{ duration: 4, ease: 'easeInOut' }}
+
+>
+
+               <div className="Newsletter space-y-3">
+                     <h3 className="text-[2rem] text-white">Newsletter</h3>
+                     <p className="text-white">Sign up for the Tech Hub weekly<br/> newsletter to get the latest updates.</p>
+                 
+<div className="relative mt-15 flex flex-wrap justify-between items-center">
+  <div className="flex justify-between gap-5 items-center">
+             <svg className="w-6 h-6 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 20 16">
+        <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
+        <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+    </svg>
+
+<input
+  type="text"
+  id="input-group-1"
+  className="md:w-100 text-white text-sm block ps-10 p-2.5 placeholder-white 
+             border-0 border-b-2 border-gray-500 focus:border-white 
+             focus:ring-0 outline-none appearance-none rounded-none"
+  placeholder="Your Email Address"
+/>
+
+
+
+  </div>
+<div>
+  <button className="text-white bg-[#C28D01] flex  justify-center  border border-black hover:bg-[#C28D01] hover:text-white h-13 w-13 rounded-full text-[1.3rem]  items-center gap-2">
+                
+                <Image
+                  src="/arrow-up-solid-full.svg"
+                  alt="navigation"
+                  width={15}
+                  height={15}
+                  className="rotate-45 text-black transition-all duration-300"
+                />
+              </button>
+</div>
+ 
+</div>
+
+               </div>
+</motion.div>
+
+               <div className="Information ">
+
+                                      <motion.div
+initial={{ opacity: 0, x: -100}}
+animate={{ opacity: 1, x: 0}}
+transition={{ duration: 3, ease: 'easeInOut' }}
+ className="space-y-3" 
+>
+   <h2 className="text-[1.3rem] text-white font-semibold">Services</h2>
+                <p className="text-white">About Us</p>
+                <p className="text-white">Why Choose Us</p>
+                <p className="text-white">Testimonials</p>
+                <p className="text-white">Pricing</p>
+              
+                </motion.div>
+               </div>
+
+               <div className="Services">
+                                    <motion.div
+initial={{ opacity: 0, x: -100}}
+animate={{ opacity: 1, x: 0}}
+transition={{ duration: 2, ease: 'easeInOut' }}
+ className="space-y-3" 
+>
+
+
+                  <h2 className="text-[1.3rem] text-white font-semibold">Information</h2>
+                <p className="text-white">Cyber Security</p>
+                <p className="text-white">App Development</p>
+                <p className="text-white">IT Consultancy</p>
+                <p className="text-white">Cloud Migration</p>
+
+</motion.div>
+               </div>
+
+               <div className="Useful Links">
+                                    <motion.div
+initial={{ opacity: 0, x: -100}}
+animate={{ opacity: 1, x: 0}}
+transition={{ duration: 1, ease: 'easeInOut' }}
+ className="space-y-3" 
+>
+ <h2 className="text-[1.3rem] text-white font-semibold">Useful Links</h2>
+                <p className="text-white">Case Studies</p>
+                <p className="text-white">Careers</p>
+                <p className="text-white">Blog</p>
+                <p className="text-white">FAQ</p>
+</motion.div>
+               </div>
+               </div>
+
+
+<div className="flex flex-wrap justify-between p-20 items-center">
+<h3>© Tech Hub. All Rights Reserved .Licensing Template by wCopilot Powered by <span className="hover:text-[#C28D01]">Ifeoma</span></h3>
+
+<div className="flex">
+
+<a href="https://www.facebook.com/">
+<Image
+src="/images/facebook-f-brands-solid-full (1).svg"
+alt="Facebook"
+width={10}
+height={10}
+className="w-15 h-10"
+/>
+</a>
+<a href="https://www.instagram.com/">
+<Image
+src="/images/instagram-brands-solid-full.svg"
+alt="Facebook"
+width={10}
+height={10}
+className="w-15 h-10"
+
+/>
+</a>
+<a href="https://www.twitter.com/">
+<Image
+src="/images/twitter-brands-solid-full.svg"
+alt="Facebook"
+width={10}
+height={10}
+className="w-15 h-10"
+/>
+</a>
+<a href="https://www.dribble.com/">
+<Image
+src="/images/dribbble-brands-solid-full.svg"
+alt="Facebook"
+width={10}
+height={10}
+className="w-15 h-10 hover:text-[#C28D01]"
+/>
+</a>
+<a href="https://www.pinterest.com/">
+<Image
+src="/images/pinterest-brands-solid-full.svg"
+alt="Facebook"
+width={10}
+height={10}
+className="w-15 h-10 hover:text-[#C28D01]"
+/>
+</a>
+</div>
+</div>
           </section>
       </main>
     </>
