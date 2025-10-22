@@ -39,7 +39,7 @@ export default function page() {
               Contact our support team to grow your business
             </h1>
 
-            <p className="text-[1.2rem] mt-5 max-w-2xl font-light text-cente md:text-balance">
+            <p className="">
               Contact our dedicated support team today to discover how we can
               help grow your business. Whether you're seeking guidance on our
               services, interested in a personalized solution, or simply have

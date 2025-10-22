@@ -33,7 +33,7 @@ export default function page() {
                       <br /> coverage of the latest technological advancements
                     </p>
                     <button className="bg-[#C28D01] mt-8 flex justify-center hover:bg-transparent border border-[#C28D01] hover:text-[#C28D01] px-[3rem] py-[0.8rem] rounded-full text-[1.3rem]  items-center gap-2 text-white">
-                      Get in Touch
+                      Discover Now
                       <Image
                         src="/arrow-up-solid-full.svg"
                         alt="navigation"

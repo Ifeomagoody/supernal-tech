@@ -104,7 +104,7 @@ export default function page() {
                     </div>
                   </motion.div>
                 </div>
-              </section>
+       </section>
     </>
   )
 }
