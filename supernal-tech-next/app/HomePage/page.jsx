@@ -309,16 +309,7 @@ export default function Page() {
 
 {/**Cyber Security page */}
 
-        
-
-
-
-                    
-
-
-
-                               
-                 
+  
                               
 
         {/*tenth section*/}
