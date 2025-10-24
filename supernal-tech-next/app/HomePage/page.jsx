@@ -35,8 +35,11 @@ import { HiMenu } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
 import { easeInOut } from "motion";
 import Link from "next/link";
-import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
-
+import {
+  Disclosure,
+  DisclosureButton,
+  DisclosurePanel,
+} from "@headlessui/react";
 
 export default function Page() {
   const [open, setOpen] = useState(null);
@@ -144,9 +147,6 @@ export default function Page() {
     },
   ];
 
-
-
-
   const visibleTexts = testimonials.slice(currentText, currentText + 2);
 
   const prevText = () => {
@@ -176,7 +176,6 @@ export default function Page() {
 
         {/** the scattered floating icons section third */}
         <CoursesPage />
-
 
         {/**fourth section */}
 
@@ -302,15 +301,10 @@ export default function Page() {
 
         <GraphPage />
 
-       
+        {/**Services Page */}
 
-       {/**Services Page */}
+        {/**Cyber Security page */}
 
-
-{/**Cyber Security page */}
-
-  
-                              
 
         {/*tenth section*/}
 
