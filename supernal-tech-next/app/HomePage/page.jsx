@@ -161,6 +161,47 @@ export default function Page() {
     .split(" ")
     .map((word) => word.split(""));
 
+
+
+      const testimonialsViewAllPage = [
+    {
+      id: 1,
+      text: `"Partnering with Tech Hub has been a game-changer for us. Their real-time data tracking and performance dashboards have provided us with unparalleled insights into our software performance."`,
+      name: "Emily S.",
+      role: "CEO of NextGen Solutions",
+      image: "/images/blonde-hair-color.webp",
+    },
+    {
+      id: 2,
+      text: `"Working with Tech Hub streamlined our development process. Their automation tools saved us countless hours every week!"`,
+      name: "Rebecca",
+      role: "CTO of NextGen Solutions",
+      image: "/images/checkers-shirt.webp",
+    },
+    {
+      id: 3,
+      text: `"Tech Hub helped us scale our infrastructure seamlessly. Their support team is always reliable and proactive."`,
+      name: "Rachel",
+      role: "CEO of Supernal",
+      image: "/images/girl-in-pink-top.webp",
+    },
+  ];
+
+    const [current, setCurrent] = useState(0);
+
+  const handleNext = () => {
+    setCurrent((prev) => (prev === testimonialsViewAllPage.length - 1 ? 0 : prev + 1));
+  };
+
+  const handlePrev = () => {
+    setCurrent((prev) => (prev === 0 ? testimonialsViewAllPage.length - 1 : prev - 1));
+  };
+
+  const active = testimonialsViewAllPage[current];
+
+
+  
+
   // const Logos = [LogoImg1, LogoImg2, LogoImg3, LogoImg4, LogoImg5];
 
   // const allLogos = [...Logos, ...Logos];
@@ -189,105 +230,7 @@ export default function Page() {
 
         <InnovationsPage />
 
-        {/*seventh section*/}
-        {/*<section className="min-h-screen p-6 w-full flex  bg-black">
-   <div className="relative border border-green-500 w-[400px] flex flex-wrap h-[400px] rounded-3xl overflow-hidden">
-            <motion.div
-              className="absolute inset-0"
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              whileHover={{ scale: 1.1 }}
-              transition={{
-                duration: 0.6,
-                ease: [0.25, 0.1, 0.25, 1], 
-              }}
-            >
-
-              <div className="flex justify-between border border-green-500 items-center">
-                <h1 className="text-[4rem]">Testimonials</h1>
-
-                  <button className="bg-[#C28D01] flex justify-center hover:bg-transparent border border-[#C28D01] hover:text-[#C28D01] px-[2rem] py-[1rem] rounded-full text-[1.3rem]  items-center gap-2 text-white">
-                View all
-                <Image
-                  src="/arrow-up-solid-full.svg"
-                  alt="navigation"
-                  width={15}
-                  height={15}
-                  className="rotate-45 transition-all duration-300"
-                />
-              </button>
-              </div>
-             <div className="w-[30rem] h-[30rem] rounded-xl border border-white">
-                 <h1></h1>
-             </div>
-              <div className="flex justify-between items-center">
-                <h1 className="text-[4rem]">Testimonials</h1>
-
-                  <button className="bg-[#C28D01] flex justify-center hover:bg-transparent border border-[#C28D01] hover:text-[#C28D01] px-[2rem] py-[1rem] rounded-full text-[1.3rem]  items-center gap-2 text-white">
-                View all
-                <Image
-                  src="/arrow-up-solid-full.svg"
-                  alt="navigation"
-                  width={15}
-                  height={15}
-                  className="rotate-45 transition-all duration-300"
-                />
-              </button>
-              </div>
-             <div className="w-[30rem] h-[30rem] rounded-xl border border-white">
-                 <h1></h1>
-             </div>
-            </motion.div>
-
-{/*             
-      <button
-        onClick={nextText}
-        className="absolute -right-12 bg-[#C28D01] border border-[#C28D01] hover:bg-white hover:text-[#C28D01] text-white flex items-center justify-center h-15 w-15 rounded-full"
-      >
-        <ArrowRight className="h-8 w-8" />
-      </button>
-
-         <button
-        onClick={prevText}
-        className="absolute -left-12 bg-[#C28D01] border border-[#C28D01] hover:bg-white hover:text-[#C28D01] text-white flex items-center justify-center h-15 w-15 rounded-full"
-      >
-        <ArrowLeft className="h-8 w-8" />
-      </button> *
-          </div> */}
-
-        {/* <div className="flex justify- items-cente">
-
-            <h1 className="text-[4rem] text-white">Testimonials</h1>
-
-
-                <button className="bg-[#C28D01] flex justify-center hover:bg-transparent border border-[#C28D01] hover:text-[#C28D01] px-[2rem] py-[1rem] rounded-full text-[1.3rem]  items-center gap-2 text-white">
-                View all
-                <Image
-                  src="/arrow-up-solid-full.svg"
-                  alt="navigation"
-                  width={15}
-                  height={15}
-                  className="rotate-45 transition-all duration-300"
-                />
-              </button>
-            
-          </div> *       
-  <div className="md:flex md:justify-between items-cente pt-10">
-        <h1 className="text-[3rem] font-semibold">Insights &<br/> Innovations</h1>
-      <div>
-       <button className="bg-[#C28D01] flex justify-center hover:bg-transparent border border-[#C28D01] hover:text-[#C28D01] px-[2rem] py-[1rem] rounded-full text-[1.3rem]  items-center gap-2 text-white">
-                View all
-                <Image
-                  src="/arrow-up-solid-full.svg"
-                  alt="navigation"
-                  width={15}
-                  height={15}
-                  className="rotate-45 transition-all duration-300"
-                />
-              </button>
-      </div>  
-  </div>
-</section>*/}
+  
 
         {/*seventh section*/}
 
@@ -307,6 +250,8 @@ export default function Page() {
 
 
         {/*tenth section*/}
+
+       
 
         <Footer />
       </main>
