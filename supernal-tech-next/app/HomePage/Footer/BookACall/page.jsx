@@ -9,7 +9,7 @@ export default function page() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
         >
-          <div className=" flex flex-col space-y-4 w-[60vw] h-[40vh] bg-[#C28D01] rounded-3xl m-10 flex-wrap space-x-20  justify-center items-center text-white">
+          <div className=" flex flex-col bg-[#C28D01] space-y-4 w-[60vw] h-[40vh] rounded-3xl m-10 flex-wrap space-x-20  justify-center items-center text-white">
             <motion.div
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
@@ -218,6 +218,112 @@ export default function page() {
             </div>
           </motion.div>
         </div>
+
+        <div className="flex flex-wrap mt-15 space-x-8 justify-center items-center">
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+          >
+            <div className="w-100 h-80 rounded-2xl space-y-3 flex flex-col items-center justify-center bg-[#f9f9fa]">
+              <div className="relative w-10 h-10  rounded-full">
+                <Image
+                  src="/images/envelope-regular-full.svg"
+                  alt="Envelope"
+                  width={5}
+                  height={5}
+                  className="w-15 h-15 absolute -bottom-3"
+                />
+              </div>
+              <p className="text-3xl font-semibold">Services</p>
+              <p className="text-center ">
+                Explore our comprehensive range of services designed to meet
+                your diverse needs
+              </p>
+              <Link href="#">
+                <p className="text-xl text-[#C28D01] hover:text-black">
+                  Learn more
+                </p>
+                <Image
+                  src="/arrow-up-solid-full.svg"
+                  alt="navigation"
+                  width={20}
+                  height={20}
+                  className="transition-all duration-300"
+                />
+              </Link>
+            </div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+          >
+            <div className="w-100 h-80 rounded-2xl space-y-3 flex flex-col items-center justify-center bg-[#f9f9fa]">
+              <div className="relative w-10 h-10  rounded-full">
+                <Image
+                  src="/images/database-solid-full.svg"
+                  alt="Envelope"
+                  width={5}
+                  height={5}
+                  className="w-15 h-15 absolute -bottom-3"
+                />
+              </div>
+              <p className="text-3xl font-semibold">Pricing</p>
+              <p className="text-center ">
+                We offer transparent and competitive pricing to suit your budget
+                and requirements
+              </p>
+              <Link href="#">
+                <p className="text-xl text-[#C28D01] hover:text-black">
+                  Learn more
+                </p>
+                <Image
+                  src="/arrow-up-solid-full.svg"
+                  alt="navigation"
+                  width={20}
+                  height={20}
+                  className="transition-all duration-300"
+                />
+              </Link>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 3, ease: "easeInOut" }}
+          >
+            <div className="w-100 h-80 rounded-2xl space-y-3 flex flex-col items-center justify-center bg-[#f9f9fa]">
+              <div className="relative w-10 h-10  rounded-full">
+                <Image
+                  src="/images/mobile-screen-button-solid-full.svg"
+                  alt="Envelope"
+                  width={5}
+                  height={5}
+                  className="w-15 h-15 absolute -bottom-3"
+                />
+              </div>
+              <p className="text-3xl font-semibold">Job Oportunities</p>
+              <p className="text-center ">
+                Unleash your potential in a supportive and innovative
+                environment
+              </p>
+              <Link href="#">
+                <p className="text-xl text-[#C28D01] hover:text-black">
+                  Learn more
+                </p>
+                <Image
+                  src="/arrow-up-solid-full.svg"
+                  alt="navigation"
+                  width={20}
+                  height={20}
+                  className="transition-all duration-300"
+                />
+              </Link>
+            </div>
+          </motion.div>
+        </div>
       </section>
 
       <section className="min-h-screen">
@@ -271,7 +377,6 @@ export default function page() {
                 </DisclosurePanel>
               </Disclosure>
             </div>
-
 
             <div className="mx-auto w-full max-w-2xl mt- divide-y divide-white/5 rounded-xl bg-white/5 p-4">
               <Disclosure as="div" defaultOpen={true}>
