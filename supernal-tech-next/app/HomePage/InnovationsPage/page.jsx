@@ -17,7 +17,7 @@ export default function page() {
       
          
         <div className="md:flex md:justify-around items-center pt-10">
-              <h1 className="text-[3rem] font-semibold">Insights &<br/> Innovations</h1>
+              <h1 className="text-[3rem] text-black font-semibold">Insights &<br/> Innovations</h1>
             <div>
              <button className="bg-[#C28D01] flex justify-center hover:bg-transparent border border-[#C28D01] hover:text-[#C28D01] px-[2rem] py-[1rem] rounded-full text-[1.3rem]  items-center gap-2 text-white">
                       View all
@@ -59,9 +59,9 @@ export default function page() {
                 <button className="bg-[#C28D01] hover:text-black flex justify-center  border border-[#C28D01]  px-[1rem] py-[0.2rem]  rounded-full text-[1rem]  items-center gap-2 text-white">
                       News</button>
       
-                      <h1 className="text-[2rem] hover:text-[#C28D01] font-semibold">Augmented Reality in Retail:<br/> Enhancing Customer<br/> Experiences and Sales</h1>
-                      <p className="text-[1rem]  font-light">Discover how augmented reality is reshaping the retail industry, from virtual<br/> try-ons to interactive shopping experiences.</p>
-                      <h3 className="text-[1.125rem] hover:text-[#C28D01] font-semibold">Look more</h3>
+                      <h1 className="text-[2rem] text-black hover:text-[#C28D01] font-semibold">Augmented Reality in Retail:<br/> Enhancing Customer<br/> Experiences and Sales</h1>
+                      <p className="text-[1rem] text-black font-light">Discover how augmented reality is reshaping the retail industry, from virtual<br/> try-ons to interactive shopping experiences.</p>
+                      <h3 className="text-[1.125rem] text-black hover:text-[#C28D01] font-semibold">Look more</h3>
             </div>
       
         </div>
@@ -94,9 +94,9 @@ export default function page() {
                 <button className="bg-[#C28D01] hover:text-black flex justify-center  border border-[#C28D01]  px-[1rem] py-[0.2rem]  rounded-full text-[1rem]  items-center gap-2 text-white">
                       Artificial Intelligence</button>
       
-                      <h1 className="text-[2rem] hover:text-[#C28D01] font-semibold">Blockchain Beyond<br/> Cryptocurrency: Applications<br/> and Innovations</h1>
-                      <p className="text-[1rem]  font-light">Learn about the diverse applications of blockchain technology beyond<br/> cryptocurrencies, including supply chain management and smart contracts.</p>
-                      <h3 className="text-[1.125rem] hover:text-[#C28D01] font-semibold">Look more</h3>
+                      <h1 className="text-[2rem] text-black hover:text-[#C28D01] font-semibold">Blockchain Beyond<br/> Cryptocurrency: Applications<br/> and Innovations</h1>
+                      <p className="text-[1rem] text-black  font-light">Learn about the diverse applications of blockchain technology beyond<br/> cryptocurrencies, including supply chain management and smart contracts.</p>
+                      <h3 className="text-[1.125rem] text-black hover:text-[#C28D01] font-semibold">Look more</h3>
             </div>
       
         </div>

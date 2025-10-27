@@ -21,8 +21,8 @@ export default function page() {
                     }}
                   >
                     
-                      <h1 className=" md:text-[3rem] text-[2.5rem] font-semibold">Our Expert<br/> Team</h1>
-                      <p className=" font-light md:text-[1.02rem] text-[1.2rem] ">Meet the talented and passionate individuals<br/> driving our innovation and success. Our expert<br/> team combines years of experience, deep industry<br/> knowledge, and a commitment to excellence to<br/> deliver cutting-edge solutions and insights.</p>
+                      <h1 className=" md:text-[3rem] text-[2.5rem] text-black font-semibold">Our Expert<br/> Team</h1>
+                      <p className=" font-light md:text-[1.02rem] text-black text-[1.2rem] ">Meet the talented and passionate individuals<br/> driving our innovation and success. Our expert<br/> team combines years of experience, deep industry<br/> knowledge, and a commitment to excellence to<br/> deliver cutting-edge solutions and insights.</p>
                      
                       <button className="text-white bg-black flex mt-10 justify-center  border border-[#C28D01] hover:bg-[#C28D01] hover:text-white px-[2rem] py-[0.8rem] rounded-full text-[1.3rem]  items-center gap-2">
                   Get to Know Us
@@ -55,7 +55,7 @@ export default function page() {
                       className=" w-45 h-45 z-10 object-cover rounded-2xl"
                     />
                      <div className="w-35 flex items-center h-15 shadow-md bg-white absolute md:top-32 left-5 rounded-2xl">
-                     <span className="px-3  font-semibold text-[0.9rem] text-center">Ifechukwu Benedict</span>
+                     <span className="px-3 text-black font-semibold text-[0.9rem] text-center">Ifechukwu Benedict</span>
                      </div>
                     </div>
       
@@ -69,7 +69,7 @@ export default function page() {
                       className=" w-45 h-45 object-cover rounded-2xl mt-5"
                     />
                         <div className="w-35 flex items-center h-15 shadow-md bg-white absolute md:top-30 left-5 rounded-2xl">
-                     <span className="px-3  font-semibold text-[0.9rem] text-center">Ifechukwu Benedict</span>
+                     <span className="px-3 text-black font-semibold text-[0.9rem] text-center">Ifechukwu Benedict</span>
                      </div>
                     </div>
                     </motion.div>
@@ -91,7 +91,7 @@ export default function page() {
                       className=" w-80 h-90 z-10 object-cover rounded-4xl"
                     />
                      <div className="w-40 flex items-center h-15 shadow-md bg-white absolute md:bottom-0 right-20 rounded-2xl">
-                     <span className="px-3  font-semibold text-[0.9rem]">Ifechukwu Benedict</span>
+                     <span className="px-3 text-black font-semibold text-[0.9rem]">Ifechukwu Benedict</span>
                      </div>
       
                     </div> 
@@ -114,7 +114,7 @@ export default function page() {
                       className=" w-45 h-45 z-10 object-cover rounded-2xl"
                     />
                      <div className="w-35 flex items-center h-15 shadow-md bg-white absolute md:top-32 left-5 rounded-2xl">
-                     <span className="px-3  font-semibold text-[0.9rem] text-center">Ifechukwu Benedict</span>
+                     <span className="px-3 text-black font-semibold text-[0.9rem] text-center">Ifechukwu Benedict</span>
                      </div>
                     </div>
       </motion.div>
@@ -132,7 +132,7 @@ export default function page() {
                       className=" w-45 h-45 object-cover rounded-2xl mt-5"
                     />
                         <div className="w-35 flex items-center h-15 shadow-md bg-white absolute md:top-30 left-5 rounded-2xl">
-                     <span className="px-3  font-semibold text-[0.9rem] text-center">Ifechukwu Benedict</span>
+                     <span className="px-3 text-black font-semibold text-[0.9rem] text-center">Ifechukwu Benedict</span>
                      </div>
                     </motion.div>
                     </div>

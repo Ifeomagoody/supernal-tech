@@ -251,7 +251,10 @@ export default function Page() {
 
         {/*tenth section*/}
 
-       
+
+
+
+ 
 
         <Footer />
       </main>
